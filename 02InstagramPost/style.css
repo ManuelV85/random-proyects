@@ -1,0 +1,68 @@
+body{
+    background: black;
+   
+    
+}
+
+.post{
+    background: gray;
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-left: 40%;
+    margin-top: 10%;
+    position: relative;
+    border: 1px solid white;
+    
+}
+
+.headerpost{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.bodypost{
+   
+    width: 500px;
+    height: 300px;
+
+}
+.image{
+    width: auto;
+}
+
+.footerpost{
+    border: 1px solid black;
+
+}
+
+.icons{
+    border: 1px solid black;
+    display: flex;
+   justify-content: space-between;
+    
+}
+
+.lefticons{
+    padding-left: 2%;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.rigthicon{
+    padding-right: 2%;
+    cursor: pointer;
+    
+}
+
+
+.likeline{
+    border: 1px solid black;
+    height: auto;
+
+}
+.textline{
+    border: 1px solid black;
+    justify-content: ;
+}
