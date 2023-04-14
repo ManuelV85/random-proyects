@@ -1,0 +1,103 @@
+main{
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.container{
+    text-align: center;
+}
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    text-transform: uppercase;
+    background: transparent;
+    color: black;
+    letter-spacing:0.25rem;
+    display: inline-block;
+    font-weight: 700;
+    padding: 1rem;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0, 0, 0.2);
+    border-radius: 1rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+.container h2{
+    background: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+
+}
+.color{
+    color: blue;
+}
+
+nav{
+    background-color: whitesmoke;
+    height: 3rem;
+    display: grid;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+
+.nav-center{
+    width: 90vw;
+    max-width: 620px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h4{
+    font-size: 1.25rem;
+}
+h1, h2, h3, h4 {
+    letter-spacing: 0.25rem;
+    text-transform: capitalize;
+    line-height: 1.25;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+.nav-links{
+    display: flex;
+}
+li{
+    display: list-item;
+    text-align: center;
+    
+}
+
+nav a{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1rem;
+    color:blue;
+    letter-spacing: normal;
+    margin-right: 1rem;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: hsl(206, 33%, 96%);
+    color: hsl(209, 61%, 16%);
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
